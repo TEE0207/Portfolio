@@ -43,8 +43,8 @@ const FirstHeaderComponent = () => {
 
                     <a href="" className={styles.social}>
                         
-                    <FaXTwitter />
-                    <p>Twitter</p>
+                    <FaXTwitter className={styles.icon} />
+                    <p className={styles.contact}>Twitter</p>
                     
                     </a>
 
@@ -53,8 +53,8 @@ const FirstHeaderComponent = () => {
                 {/* <div className={styles.linkedInContainer}> */}
                     <a href="" className={styles.social}>
 
-                    <FaLinkedinIn />
-                    <p>LinkedIn</p>
+                    <FaLinkedinIn className={styles.icon}  />
+                    <p className={styles.contact}>LinkedIn</p>
 
                     </a>
 
@@ -62,8 +62,8 @@ const FirstHeaderComponent = () => {
 
                 {/* <div className={styles.GitHubContainer}> */}
                     <a href="" className={styles.social}>
-                        <FaGithub />
-                        <p>Github</p>
+                        <FaGithub  className={styles.icon} />
+                        <p className={styles.contact}>Github</p>
                     </a>
 
                 {/* </div> */}
