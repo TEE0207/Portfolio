@@ -1,3 +1,6 @@
+import ProfileComponent from "./ProfileComponent"
+import styles from "./header.module.css"
+
 const HeaderComponent = () => {
 
 
@@ -7,14 +10,14 @@ const HeaderComponent = () => {
 
             <div className="allIconContainer">
 
-
+<ProfileComponent />
             </div>
 
 
             <div className="devAndAllOtherContentContainer">
 
                 <div className="devContainer">
-                    
+
                 </div>
 
 
@@ -26,3 +29,5 @@ const HeaderComponent = () => {
         </section>
     )
 }
+
+export default HeaderComponent

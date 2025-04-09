@@ -3,6 +3,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { FiBriefcase } from "react-icons/fi";
 import { FaLink } from "react-icons/fa6";
 import { GoDownload } from "react-icons/go";
+import styles from "./profile.module.css"
 
 
 
@@ -18,7 +19,8 @@ const ProfileComponent = () => {
 
             <div className={styles.picNameprofessionContainer}>
 
-                <div className={profilePictureContainer}>
+                <div className={styles.profilePictureContainer}>
+                    <img src="./Profile.png" alt="profile Picture" />
 
                 </div>
 
@@ -65,8 +67,10 @@ const ProfileComponent = () => {
 
             
              <div className={styles.downloadButtonContainer}>
-                <button>Download CV <GoDownload />
-                </button>
+                <a href="#" download="My_CV">
+                   <button>Download CV <GoDownload /></button>
+                </a>
+
              </div>
 
 
@@ -74,3 +78,6 @@ const ProfileComponent = () => {
         </div>
     )
 }
+
+
+export default ProfileComponent
