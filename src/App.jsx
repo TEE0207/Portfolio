@@ -1,4 +1,4 @@
-import AboutMeComponent from "./AboutMeComponent"
+import AboutMeComponent from "./Home/AboutMeComponent"
 
 function App() {
   
