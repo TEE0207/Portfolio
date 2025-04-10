@@ -1,4 +1,97 @@
 .allContentContainer{
     width: fit-content;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 4px white;
+    border-left: 4px solid #12F7D6;
+    border-top: 4px solid #12F7D6;
+    padding: 2rem 3rem 2rem 2rem;
+    border-top-left-radius:160px ;
+    border-bottom-right-radius:160px;
+
+    /* background-color: blue; */
+
+}
+
+.picNameprofessionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.7rem;
+    padding-bottom: 1rem;
+}
+
+.myName{
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.myProfession{
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.nameAndProfessionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconsAndDescriptionContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+
+}
+
+.pIcon{
+    color: #12F7D6;
+}
+
+.profileDes{
+    color: white;
+}
+
+
+.iconAndContent{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.8rem;
+}
+.stackContainer{
+    display: flex;
+    column-gap: 0.8rem;
+    margin: 1rem 0rem 1.5rem 0rem;
+}
+
+.eachStackContainer{
+    width: fit-content;
+    height: auto;
+    padding: 0.15rem 0.4rem;
+    background-color: #12F7D6;
+    border-radius: 0.6rem;
+    color: #292F36;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.8rem;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.6rem 1.5rem;
+    font-family:   "Ubuntu", sans-serif;
+    column-gap: 0.4rem;
+    border-radius: 1.5rem;
+
+}
+
+.Dicon{
+    font-size: 1.2rem;
 }

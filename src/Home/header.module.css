@@ -1,0 +1,31 @@
+.allContentContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #292F36;
+    column-gap: 3rem;
+    padding: 2rem;
+
+}
+
+
+.profileContainer{
+    width: fit-content;
+    height: auto;
+}
+
+.textAndH1AssetContainer{
+    /* width: fit-content; */
+    height: auto;
+    display: flex;
+}
+
+.devAndAllOtherContentContainer{
+    width: fit-content;
+    height: auto;
+
+}
+
+  
+  

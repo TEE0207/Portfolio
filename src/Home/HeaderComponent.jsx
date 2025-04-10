@@ -1,26 +1,69 @@
+import SideBar from "../SideBarComponent"
 import ProfileComponent from "./ProfileComponent"
 import styles from "./header.module.css"
+import { MdOutlineMail } from "react-icons/md";
+
+
 
 const HeaderComponent = () => {
 
-
+   
 
     return(
-        <section className={styles.allContentContainer}>
+        <section id="me"className={styles.allContentContainer}>
 
-            <div className="allIconContainer">
+               
+                
+                <SideBar />    
+              
+                    
 
-<ProfileComponent />
+
+                  
+            
+
+            <div className={styles.profileContainer}>
+
+             <ProfileComponent />
             </div>
 
 
-            <div className="devAndAllOtherContentContainer">
+            <div className={styles.devAndAllOtherContentContainer}>
 
-                <div className="devContainer">
+                <div className={styles.devContainer}>
+                    <h1> Frond-End Developer</h1>
+                </div>
+
+                <div className={styles.heyNameDeveloperContainer}>
+
+                    <img src="./h1open.png" alt="<h1>" />
+                    <h3>Hey</h3>
+                    <h3>I'm <span>Taofeek</span></h3>
+                    <div className={styles.textAndH1AssetContainer}>
+                        <h3>Front-End Developer</h3>
+                        <img src="./h1close.png" alt="</h1>" />
+                    </div>
+
 
                 </div>
 
 
+                <div className={styles.paragraphAndPtagContainer}>
+                    <img src="./popen" alt="<p>" />
+                    <div className={styles.paragraphContainer}>
+                        <p>I help business grow by crafting amazing web experiences. If you’re looking for a developer that likes to get stuff done,</p>
+                    </div>
+                    <img src="./pclose.png" alt="</p>" />
+                </div>
+
+
+                 <div className={styles.letsTalkAndIconContainer}>
+                    <h3>Let's Talk </h3>
+                    <MdOutlineMail />
+
+
+
+                 </div>
             </div>
 
 

@@ -25,8 +25,8 @@ const ProfileComponent = () => {
                 </div>
 
                 <div className={styles.nameAndProfessionContainer}>
-                    <h1></h1>
-                    <p></p>
+                    <h3 className={styles.myName}>Taofeek</h3>
+                    <p className={styles.myProfession}>Front-End Developer</p>
 
                 </div>
 
@@ -36,39 +36,39 @@ const ProfileComponent = () => {
             <div className={styles.iconsAndDescriptionContainer}>
 
                 <div className={styles.iconAndContent}>
-                    <CiMail />
-                    <p>Taofeeklwl@gmail.com</p>
+                    <CiMail className={styles.pIcon}/>
+                    <p className={styles.profileDes}>Taofeeklwl@gmail.com</p>
                 </div>
 
                 <div className={styles.iconAndContent}>
-                    <IoLocationOutline />
-                    <p>United Kingdom</p>
+                    <IoLocationOutline className={styles.pIcon} />
+                    <p className={styles.profileDes}>United Kingdom</p>
                 </div>
 
                 <div className={styles.iconAndContent}>
-                    <FiBriefcase />
-                    <p>Full-time / Freelancer</p>
+                    <FiBriefcase className={styles.pIcon}/>
+                    <p className={styles.profileDes}>Full-time / Freelancer</p>
                 </div>
 
                 <div className={styles.iconAndContent}>
-                 <FaLink />
-                 <a href="#">www.taofeeklwl.com</a>
+                 <FaLink className={styles.pIcon}/>
+                 <a href="#" className={styles.profileDes}>www.taofeeklwl.com</a>
                 </div>
 
 
             </div>
 
             <div className={styles.stackContainer}>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JS</p>
-                <p>REACT</p>
+                <div className={styles.eachStackContainer}> <p>HTML</p> </div>
+                <div className={styles.eachStackContainer}> <p>CSS</p> </div>
+                <div className={styles.eachStackContainer}> <p>JS</p> </div>
+                <div className={styles.eachStackContainer}> <p>REACT</p> </div>
             </div>
 
             
              <div className={styles.downloadButtonContainer}>
                 <a href="#" download="My_CV">
-                   <button>Download CV <GoDownload /></button>
+                   <button className={styles.button}>Download CV <GoDownload className={styles.Dicon}/></button>
                 </a>
 
              </div>

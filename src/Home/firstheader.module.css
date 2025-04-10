@@ -10,6 +10,7 @@
     align-items: center;
     background-color: #292F36;
     padding: 2rem 0rem;
+    border-bottom: 0.2px solid white;
 }
 
 /* .active{

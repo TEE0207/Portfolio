@@ -4,7 +4,7 @@ const AboutMeComponent = () => {
 
 
     return(
-        <section className={styles.allContentContainer}>
+        <section id="about" className={styles.allContentContainer}>
 
             <div className={styles.scrollContainer}>
                 <img src="./Scroll.png" alt="Image" className={styles.scroll}/>
