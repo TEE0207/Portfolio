@@ -10,11 +10,14 @@ const HeaderComponent = () => {
    
 
     return(
-        <section id="me"className={styles.allContentContainer}>
+        <section id="me" className={styles.allContentContainer}>
+
+
+
+            {/* <SideBar /> */}
 
                
                 
-                <SideBar />    
               
                     
 
@@ -31,17 +34,23 @@ const HeaderComponent = () => {
             <div className={styles.devAndAllOtherContentContainer}>
 
                 <div className={styles.devContainer}>
-                    <h1> Frond-End Developer</h1>
+                    <h1> Developer</h1>
                 </div>
 
                 <div className={styles.heyNameDeveloperContainer}>
 
                     <img src="./h1open.png" alt="<h1>" />
-                    <h3>Hey</h3>
-                    <h3>I'm <span>Taofeek</span></h3>
-                    <div className={styles.textAndH1AssetContainer}>
-                        <h3>Front-End Developer</h3>
-                        <img src="./h1close.png" alt="</h1>" />
+                    <div className={styles.heyToH1}>
+                        <h3 className={styles.hey}>Hey</h3>
+                        <h3 className={styles.iam}>I'm <span className={styles.taofeek}>Taofeek</span></h3>
+                        <div className={styles.textAndH1AssetContainer}>
+                            <h3 className={styles.frontend}>Front-End Developer</h3>
+
+                            <div className={styles.closingh1Container}>
+                              <img src="./h1close.png" alt="</h1>" className={styles.closingH1}/>
+
+                            </div>
+                        </div>
                     </div>
 
 
@@ -49,7 +58,7 @@ const HeaderComponent = () => {
 
 
                 <div className={styles.paragraphAndPtagContainer}>
-                    <img src="./popen" alt="<p>" />
+                    <img src="./popen.png" alt="<p>" />
                     <div className={styles.paragraphContainer}>
                         <p>I help business grow by crafting amazing web experiences. If you’re looking for a developer that likes to get stuff done,</p>
                     </div>
@@ -58,8 +67,12 @@ const HeaderComponent = () => {
 
 
                  <div className={styles.letsTalkAndIconContainer}>
-                    <h3>Let's Talk </h3>
-                    <MdOutlineMail />
+                    <h3 className={styles.talk}>Let's Talk </h3>
+                    <div className={styles.mailContainer}>
+                      <MdOutlineMail />
+
+                    </div>
+                   
 
 
 

@@ -16,3 +16,10 @@ a{
 .active{
   color: black;
 }
+
+
+:root {
+  --white-color: #FFFFFF;
+  --ubuntu-font : "Ubuntu", sans-serif;
+  --plex-mono-font : "IBM Plex Mono", monospace;
+}

@@ -3,6 +3,7 @@
     height: auto;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: #292F36;
     column-gap: 3rem;
     padding: 2rem;
@@ -13,6 +14,7 @@
 .profileContainer{
     width: fit-content;
     height: auto;
+    padding-top:6rem ;
 }
 
 .textAndH1AssetContainer{
@@ -22,9 +24,106 @@
 }
 
 .devAndAllOtherContentContainer{
-    width: fit-content;
+    width: 60%;
     height: auto;
 
+}
+
+.devContainer{
+    width: fit-content;
+    height: auto;
+    color: #98FAEC;
+    font-family:   "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 8rem;
+
+}
+
+.heyToH1{
+    width: fit-content;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.hey{
+    color: var(--white-color);
+    font-family: var(--ubuntu-font);
+    font-size: 1.5rem;
+}
+
+.iam{
+    color: var(--white-color);
+    font-family: var(--ubuntu-font);
+    font-size: 1.5rem;
+}
+
+.taofeek{
+    color: #12F7D6;
+}
+.textAndH1AssetContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    /* align-items: baseline; */
+    
+}
+.frontend{
+    color: var(--white-color);
+    font-family: var(--ubuntu-font);
+    font-size: 2rem;
+}
+
+.closingh1Container{
+    width: 25px;
+    height: 15px;
+    padding-top: 0.5rem;
+}
+
+.closingH1{
+    width: 100%;
+    height: 100%;
+}
+
+.paragraphAndPtagContainer{
+    width: 100%;
+    height: auto;
+}
+
+.paragraphContainer{
+    width: 75%;
+    height: auto;
+    color: var(--white-color);
+    font-family: var(--plex-mono-font);
+    margin-left: 1rem;
+}
+
+.letsTalkAndIconContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1rem;
+    padding-left: 1rem;
+}
+
+.mailContainer{
+    width: 30px;
+    height: 30px;
+    color: #12F7D6;
+    background-color: #43454D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+}
+
+.talk{
+    color: #12F7D6;
+    word-spacing: 0.5rem;
 }
 
   

@@ -1,0 +1,53 @@
+.allContentContainer{
+    width: 100%;
+    height: auto;
+    background-image: url(./Framebg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    position: relative;
+}
+
+.tag{
+    font-size: 3rem;
+    color: #12F7D6;
+}
+
+
+/* Semi-transparent overlay */
+/* .allContentContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(41, 47, 54 , 0.3 ) ; 
+    z-index: 1;
+  } */
+
+/* 
+  .allContentContainer::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./devBg2.JPG); 
+    background-size: cover;
+    background-position: center;
+    transform: scaleY(-1);
+    opacity: 0.5; 
+    z-index: 0;
+  } */
+
+  
+/*   
+  .content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 2rem;
+  } */
+  
