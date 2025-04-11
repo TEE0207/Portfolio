@@ -6,12 +6,131 @@
     background-size: cover;
     background-repeat: no-repeat ;
     position: relative;
+    padding: 2rem 0rem;
 }
 
+.generalIconContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.theTwoIconContainer{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 7rem;
+}
+
+.scrollIconContainer{
+    width: 18px;
+    height: 170px;
+}
+
+.scroll{
+    width: 100%;
+    height: 100%;
+}
+
+.fragmetContainer{
+    width: fit-content;
+    height: auto;
+    padding: 3rem;
+}
+
+.fragmentIconContainer{
+    width: fit-content;
+    height: auto;
+}
 .tag{
-    font-size: 3rem;
+    font-size: 7rem;
     color: #12F7D6;
 }
+
+.skillsAndTextContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textContainer{
+    color: white;
+   
+    font-family: var(--plex-mono-font);
+}
+
+.webdevelopmetContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.allSkillsContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 4rem;
+    margin-top: 5rem;
+}
+
+.eachIconAndTextContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 1rem;
+}
+
+.skillImageContainer{
+    width: 100px;
+    height: 100px;
+}
+
+.skillImage{
+    width: 100%;
+    height: 100%;
+}
+
+.htmlText{
+    color: #E54F26;
+    font-family: var(--plex-mono-font);
+    font-size: 26px;
+
+
+}
+
+.cssText{
+    color: #0C73B8;
+    font-family: var(--plex-mono-font);
+    font-size: 26px;
+
+
+}
+
+.jsText{
+    color: #E7A020;
+    font-family: var(--plex-mono-font);
+    font-size: 26px;
+
+
+}
+
+.reactText{
+    color: #28A9E0;
+    font-family: var(--plex-mono-font);
+    font-size: 26px;
+
+}
+
 
 
 /* Semi-transparent overlay */
