@@ -28,16 +28,16 @@ const SideBar = () => {
         {[
           { name: 'Dashboard', to: 'me', Icon: HiOutlineSquares2X2, offset: -100 },
           { name: 'About', to: 'about', Icon: IoMdContact, offset: -50 },
-          { name: 'Skills', to: 'skills', Icon: RiComputerLine, offset: -50 },
+          { name: 'Skills', to: 'skills', Icon: RiComputerLine, offset: -50},
           { name: 'Contact', to: 'contact', Icon: MdOutlineMail, offset: -50 },
-        ].map(({ name, to, Icon , offset }) => (
+          ].map(({ name, to, Icon , offset }) => (
           <li key={name}>
             <Link
               to={to}
               containerId="scroll-container"  // 👈 tell react-scroll where to scroll
 
               smooth={true}
-              duration={500}
+              duration={200}
               // activeClass={styles.active}
               // className={styles.navIconContainer}
               spy={true}

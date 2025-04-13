@@ -10,8 +10,8 @@
 
 
     position: fixed;
-    top: 64px; /* Header height */
-    left: 0;
+    top: 80px; /* Header height */
+    left: 10px;
     /* width: 192px; */
     
     /* Same as pl-48 in Tailwind */
@@ -45,7 +45,7 @@
   .tooltip {
     position: absolute;
     left: 100%;
-    margin-left: 1rem;
+    margin-left: 1.2rem;
     background-color: #FFFFFF;
     color: #292F36;
     padding: 4px 8px;
