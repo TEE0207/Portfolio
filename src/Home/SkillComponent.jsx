@@ -5,7 +5,7 @@ import { IoCodeSlash } from "react-icons/io5";
 const SkillComponent  = () => {
 
     return(
-        <section id="skills" className={styles.allContentContainer} >
+        <section className={styles.allContentContainer} >
 
 
                 <div className={styles.generalIconContainer}>

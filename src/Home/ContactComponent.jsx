@@ -102,7 +102,7 @@ const manageSubmittion = (e) =>{
 
 
     return(
-        <section id="contact" className={styles.allContentContainer}>
+        <section className={styles.allContentContainer}>
 
                 <div className={styles.scrollAndContactIconContainer}>
 
@@ -139,9 +139,9 @@ const manageSubmittion = (e) =>{
                           placeholder="Enter Your Name"
                           value={nameInput}
                           onChange={manageName}
-                          className={styles.inputField}
+                          className={`${styles.inputField} ${errorNameInput ? styles.error : ""}`}
                         />
-                        {errorNameInput && <p>This feild cannot be empty </p>}
+                        {errorNameInput && <p className={styles.errorMessage}>This feild cannot be empty </p>}
                       </div>
 
                       <div className={styles.emailContainer}>
@@ -151,10 +151,10 @@ const manageSubmittion = (e) =>{
                           placeholder="Enter Your Email"
                           value={emailValue}
                           onChange={manageEmail}
-                          className={styles.inputField}
+                          className={`${styles.inputField} ${emailError ? styles.error : ""}`}
 
                         />
-                        {emailError && <p>{emailError} </p>}
+                        {emailError && <p className={styles.errorMessage}>{emailError} </p>}
                       </div>
                </div>
 
@@ -168,11 +168,14 @@ const manageSubmittion = (e) =>{
                     placeholder="Enter Your Message"
                     value={message}
                     onChange={manageMessage}
-                    className={styles.messageInputField}
+                    className={`${styles.messageInputField} ${messageError ? styles.error : ""}`}
 
                   />
-                  {messageError && <p>This feild cannot be empty </p>}
+                  {messageError && <p className={styles.errorMessage}>This feild cannot be empty </p>}
                 </div>
+
+                        
+
 
 
 

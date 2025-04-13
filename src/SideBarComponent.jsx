@@ -26,16 +26,28 @@ const SideBar = () => {
     <nav>
       <ul className={styles.allIconContainer}>
         {[
-          { name: 'Dashboard', to: 'me', Icon: HiOutlineSquares2X2 },
-          { name: 'About', to: 'about', Icon: IoMdContact },
-          { name: 'Skills', to: 'skills', Icon: RiComputerLine },
-          { name: 'Contact', to: 'contact', Icon: MdOutlineMail },
-        ].map(({ name, to, Icon }) => (
+          { name: 'Dashboard', to: 'me', Icon: HiOutlineSquares2X2, offset: -100 },
+          { name: 'About', to: 'about', Icon: IoMdContact, offset: -50 },
+          { name: 'Skills', to: 'skills', Icon: RiComputerLine, offset: -50 },
+          { name: 'Contact', to: 'contact', Icon: MdOutlineMail, offset: -50 },
+        ].map(({ name, to, Icon , offset }) => (
           <li key={name}>
             <Link
               to={to}
+              containerId="scroll-container"  // 👈 tell react-scroll where to scroll
+
               smooth={true}
               duration={500}
+              // activeClass={styles.active}
+              // className={styles.navIconContainer}
+              spy={true}
+
+              offset={offset} 
+               // optional: offset for fixed header
+
+
+
+
               className={`${styles.navIconContainer} ${
                 activeIcon === name ? styles.active : ''
               }`}

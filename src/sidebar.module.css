@@ -7,6 +7,18 @@
     border: 1px solid white;
     border-radius: 1rem;
     background-color: #1a1e23;
+
+
+    position: fixed;
+    top: 64px; /* Header height */
+    left: 0;
+    /* width: 192px; */
+    
+    /* Same as pl-48 in Tailwind */
+    /* height: calc(100vh - 20px); */
+    padding: 1rem;
+    /* overflow-y: auto; */
+    z-index: 999;
   }
   
   .navIconContainer {

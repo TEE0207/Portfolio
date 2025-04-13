@@ -10,7 +10,7 @@ const HeaderComponent = () => {
    
 
     return(
-        <section id="me" className={styles.allContentContainer}>
+        <section className={styles.allContentContainer}>
 
 
 

@@ -1,0 +1,28 @@
+.mainss {
+    padding-top: 64px; /* Header height */
+    /* padding-left: 192px;  */
+    /* Nav width */
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .layoutContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .bodyContainer {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    /* margin-top: 2rem; */
+  }
+  
+  .main {
+    flex: 1;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    padding-top: 64px;
+  }
+  

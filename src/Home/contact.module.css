@@ -61,6 +61,8 @@
     border-bottom-right-radius: 1rem;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
+    word-spacing: 0.5rem;
+    font-size: 1rem;
 }
 
 .nameAndEmailContainer{
@@ -107,6 +109,36 @@
 .inputField::placeholder{
     font-family:var(--ubuntu-font) ;
     color: white;
+    font-size: 0.7rem;
+}
+
+.messageInputField::placeholder{
+    font-family:var(--ubuntu-font) ;
+    color: white;
+    font-size: 0.7rem;
+}
+
+/* .inputField.error {
+    border-color: red;
+} */
+
+.messageInputField.error::placeholder {
+    color: red;
+}
+
+/* .messageInputField.error {
+    border-color: red;
+} */
+
+.inputField.error::placeholder {
+    color: red;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    font-size: 0.55rem;
 }
 
 .label{
@@ -153,12 +185,18 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 2rem;
  }
 
  .button{
    display: flex;
    flex-direction: row;
    align-items: center;
+   padding:0.7rem 1rem;
+   column-gap: 0.5rem;
+   border-radius: 1rem;
+   background-color: #12F7D6;
+   cursor: pointer;
  }
 
  
