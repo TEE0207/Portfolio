@@ -81,7 +81,7 @@
     flex-direction: column;
     /* background-color: #12F7D6; */
     display: flex;
-    row-gap: 0.5rem;
+    row-gap: 1.1rem;
 }
 
 .emailContainer{
@@ -90,7 +90,7 @@
     display: flex;
     flex-direction: column;
     display: flex;
-    row-gap: 0.5rem;
+    row-gap: 1.1rem;
 }
 
 .inputField{
@@ -115,3 +115,50 @@
    font-family:var(--ubuntu-font) ;
 
 }
+
+.messageContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.1rem;
+    align-items: center;
+
+}
+
+.messageInputField{
+    width: 62%;
+    border: none;
+    border-bottom: 1px solid #98FAEC;
+    background-color: #1A1E23;
+    outline: none;
+}
+
+.messageInputField::placeholder{
+    font-family:var(--ubuntu-font) ;
+    color: white;
+}
+
+.messageLabel{
+   
+    width: 62%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+ }
+
+ .buttonContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .button{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+ }
+
+ 

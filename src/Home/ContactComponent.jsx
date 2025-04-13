@@ -160,7 +160,9 @@ const manageSubmittion = (e) =>{
 
 
                 <div className={styles.messageContainer}>
-                  <label htmlFor="message" className={styles.label}>Your message*</label>
+                  <div className={styles.messageLabel}> 
+                    <label htmlFor="message" className={styles.label}>Your message*</label>
+                  </div>
                     <input type="text" 
                     id="message"
                     placeholder="Enter Your Message"
@@ -174,7 +176,9 @@ const manageSubmittion = (e) =>{
 
 
 
-                      <button type="submit">Send Message <BsSend /> </button>
+                      <div className={styles.buttonContainer}>
+                       <button type="submit" className={styles.button}>Send Message <BsSend /> </button>
+                      </div>
               </form>
 
         </section>
