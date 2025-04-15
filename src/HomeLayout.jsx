@@ -18,10 +18,10 @@ const HomeLayout = () => {
 
         <div className={styles.bodyContainer}>
         <SideBar />
-        <main id="scroll-container" className={styles.main}>
-            <Outlet />
-        </main>
-    </div>
+            <main id="scroll-container" className={styles.main}>
+                <Outlet />
+            </main>
+        </div>
   </div>
 
 
