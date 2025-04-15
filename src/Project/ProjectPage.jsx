@@ -19,6 +19,19 @@ const ProjectPage = () => {
                 <ProjectComponent />
             </div>
 
+            <div className={styles.seeMoreButtonContainer}>
+
+                    <a
+                    href="https://github.com/yourusername/yourproject"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.myButton}
+                    >
+                     See More Projects
+                    </a>
+
+            </div>
+
 
         </div>
     )

@@ -35,3 +35,23 @@
     flex-direction: column;
     align-items: center;
 }
+
+.seeMoreButtonContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.myButton {
+    padding: 1rem 2rem;
+    background-color: #292F36;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #12F7D6;
+    border-radius: 5rem;
+    display: inline-block;
+    cursor: pointer;
+  }
