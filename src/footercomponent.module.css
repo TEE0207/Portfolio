@@ -1,0 +1,36 @@
+.allContentContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: #1A1E23;
+}
+
+.centerContainer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+.leftSideContainer{
+    color: white;
+}
+
+.taofeek{
+    color: #12F7D6;
+}
+
+.rightSideContainer{
+    color: white;
+}
+
+.mediaContainer{
+    padding: 0.5rem;
+    background-color: aqua;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    display: flex;
+}
