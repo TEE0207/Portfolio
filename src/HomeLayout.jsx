@@ -11,13 +11,13 @@ const HomeLayout = () => {
     <div className={styles.layoutContainer}>
        <FirstHeaderComponent />
 
-        <div className={styles.bodyContainer}>
+        {/* <div className={styles.bodyContainer}>
         <SideBar />
             <main id="scroll-container" className={styles.main}>
                 <Outlet />
                 <FooterComponent />
             </main>
-        </div>
+        </div> */}
 
         
   </div>
