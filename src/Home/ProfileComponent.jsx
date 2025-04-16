@@ -68,7 +68,7 @@ const ProfileComponent = () => {
             
              <div className={styles.downloadButtonContainer}>
                 <a href="#" download="My_CV">
-                   <button className={styles.button}>Download CV <GoDownload className={styles.Dicon}/></button>
+                   <button className={styles.button}>Download CV <GoDownload className={styles.dIcon}/></button>
                 </a>
 
              </div>

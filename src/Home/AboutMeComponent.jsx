@@ -23,7 +23,7 @@ const AboutMeComponent = () => {
 
                             <img src="./popen.png" alt="paragraph open tag" />
 
-                           <div className={styles.allParagrapContent}>
+                           <div className={styles.allParagraphContent}>
                              <h3 className={styles.tagStyle} > Hello!</h3>
 
                             <p className={styles.paragraph}>My name is Taofeek and I specialize in front-end developement that utilizes <span className={styles.tagStyle}>HTML</span>,  <span className={styles.tagStyle}>CSS</span>, <span className={styles.tagStyle}>JS</span>, and <span className={styles.tagStyle}>REACT</span> </p>

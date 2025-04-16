@@ -64,74 +64,15 @@
   }  
 
 
-   /* .allIconContainer {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
-    background-color: #1a1e23;
-    border-radius: 1rem;
-  }
-  
-  .navIconContainer {
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .navIconContainer:hover {
-    background-color: #292f36;
-  }
-  
-  .navIcon {
-    font-size: 24px;
-    color: white;
-  }
-  
-  .iconLabel {
-    display: none;
-  }
-  
-  .tooltip {
-    position: absolute;
-    left: 100%;
-    margin-left: 0.5rem;
-    padding: 0.3rem 0.6rem;
-    background-color: #333;
-    color: #fff;
-    border-radius: 0.3rem;
-    white-space: nowrap;
-    font-size: 14px;
-    opacity: 0;
-    transform: translateY(-10px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-  }
-  
-  .navIconContainer:hover .tooltip {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  .active {
-    background-color: white;
-  }
-  
-  .active .navIcon {
-    color: #292f36;
-  }
-  
-  @media (max-width: 768px) {
-    .navIcon {
-      font-size: 20px;
-    }
-  
-    .tooltip {
-      font-size: 12px;
-      padding: 0.2rem 0.4rem;
+  @media screen and (max-width : 480px) {
+    .allIconContainer {
+      list-style: none;
+      display: none;
+      flex-direction: column;
+      row-gap: 1rem;
+      border: 1px solid white;
+      border-radius: 1rem;
+      background-color: #1a1e23;
     }
   }
-   */
+  

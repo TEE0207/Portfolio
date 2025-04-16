@@ -126,5 +126,129 @@
     word-spacing: 0.5rem;
 }
 
+@media screen and (max-width : 480px) {
+    .allContentContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        background-color: #292F36;
+        column-gap: 3rem;
+        padding: 2rem;
+    
+    }
+
+    .devAndAllOtherContentContainer{
+        width: 100%;
+        height: auto;
+        margin-top: 4rem;
+    }
+    
+
+    .profileContainer{
+        width: 100%;
+        height: auto;
+        padding-top:2rem ;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .devContainer{
+        width: fit-content;
+        height: auto;
+        color: #98FAEC;
+        font-family:   "Ubuntu", sans-serif;
+        font-size: 2.5rem;
+        margin-bottom: 8rem;
+        display: none;
+    
+    }
+
+    .heyNameDeveloperContainer{
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;        
+    }
+
+    .textAndH1AssetContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        column-gap: 0rem;
+        /* align-items: baseline; */
+        
+    }
+
+    .frontend{
+        color: var(--white-color);
+        font-family: var(--ubuntu-font);
+        font-size: 1.8rem;
+    }
+
+    .closingh1Container{
+        width: 28px;
+        height: 18px;
+        padding-top: 0rem;
+        margin-left: -1rem;
+    }
+
+    .hey{
+        color: var(--white-color);
+        font-family: var(--ubuntu-font);
+        font-size: 1.8rem;
+    }
+    
+    .iam{
+        color: var(--white-color);
+        font-family: var(--ubuntu-font);
+        font-size: 1.8rem;
+    }
+
+    .paragraphContainer{
+        width: 90%;
+        height: auto;
+        color: var(--white-color);
+        font-family: var(--plex-mono-font);
+        margin: 1rem 0rem 1rem 1rem;
+        
+    }
+
+    .letsTalkAndIconContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+        padding-left: 0rem;
+        margin-top: 1rem;
+    }
+    
+    .mailContainer{
+        width: 50px;
+        height: 50px;
+        color: #12F7D6;
+        background-color: #43454D;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5rem;
+        font-size: 2rem;
+
+    }
+    
+    .talk{
+        color: #12F7D6;
+        word-spacing: 0.5rem;
+        font-size: 2rem;
+    }
+}
+
   
   
