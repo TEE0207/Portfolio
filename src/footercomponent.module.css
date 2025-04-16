@@ -12,7 +12,7 @@
 .centerContainer{
     display: flex;
     flex-direction: row;
-    column-gap: 2rem;
+    column-gap: 3rem;
 }
 
 .leftSideContainer{
@@ -34,3 +34,7 @@
     border-radius: 5rem;
     display: flex;
 }
+
+/* .icon{
+    color: none;
+} */

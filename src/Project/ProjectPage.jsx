@@ -18,7 +18,7 @@ const ProjectPage = () => {
                 <ProjectComponent
                  title= "Country Explorer with Dark Mode"
                  description="A responsive React app that fetches and displays country data via REST API. Includes search, filtering, detail pages, and light/dark theme toggling."
-                 view={{href : "https://rest-countries-gilt-chi.vercel.app/" , text : "View Project Here"}}
+                 view = {{href : "https://rest-countries-gilt-chi.vercel.app/" , text : "View Project Here"}}
                 
                 />
                 <ProjectComponent 

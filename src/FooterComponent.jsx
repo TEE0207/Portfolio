@@ -14,17 +14,24 @@ const FooterComponent = () => {
                 </div>
 
                 <div className={styles.centerContainer}>
-                    <div className={styles.mediaContainer}>
-                    <FaXTwitter />
-                    </div>
 
+                   <a href="https://x.com/TE3LAW" target='_blank'>
                     <div className={styles.mediaContainer}>
-                    <FaLinkedinIn />
-                    </div>
+                        <FaXTwitter />
+                        </div>
+                   </a>
 
-                    <div className={styles.mediaContainer}>
-                    <FaGithub />
-                    </div>
+                    <a href="https://www.linkedin.com/in/taofeek-lawal-2144ba30a/" target='_blank'>
+                        <div className={styles.mediaContainer}>
+                        <FaLinkedinIn />
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/TEE0207" target='_blank'  className={styles.icon}>
+                        <div className={styles.mediaContainer}>
+                        <FaGithub />
+                        </div>
+                    </a>
 
                 </div>
                 
