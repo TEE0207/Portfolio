@@ -16,13 +16,13 @@
     display: flex;
     flex: 1;
     overflow: hidden;
-    /* margin-top: 2rem; */
+    background-color: #292F36;
   }
   
   .main {
     flex: 1;
     overflow-y: auto;
     scroll-behavior: smooth;
-    padding-top: 64px;
+    padding-top: 104px;
   }
   

@@ -6,13 +6,7 @@ import FooterComponent from "./FooterComponent";
 
 const HomeLayout = () => {
   return (
-    // <>
-    //   <FirstHeaderComponent />
-    //   <SideBar />
-    //   <main className={styles.main}>
-    //     <Outlet />
-    //   </main>
-    // </>
+   
 
     <div className={styles.layoutContainer}>
        <FirstHeaderComponent />

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./projectcomponent.module.css"
 
 
-const ProjectComponent = () => {
+const ProjectComponent = ({title , description , view}) => {
 
   return (
     <div className={styles.allContentContainer}>
@@ -15,16 +15,16 @@ const ProjectComponent = () => {
         <div className={styles.allOtherContentContainer}>
 
             <div className={styles.headingContainer}>
-                <h2>Country Explorer with Dark Mode </h2>
+                <h2>{title} </h2>
             </div>
 
             <div className={styles.descriptionContainer}>
-                <p>A responsive React app that fetches and displays country data via REST API. Includes search, filtering, detail pages, and light/dark theme toggling.</p>
+                <p>{description}</p>
 
             </div>
 
             <div className={styles.linkContainer}>
-                <a href="#" className={styles.anchor}>View Project </a>
+                <a href={view.href} target="_blank" rel="noopener noreferrer" className={styles.anchor}>{view.text} </a>
 
             </div>
 

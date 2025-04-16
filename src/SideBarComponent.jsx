@@ -34,7 +34,8 @@ const SideBar = () => {
           <li key={name}>
             <Link
               to={to}
-              containerId="scroll-container"  // 👈 tell react-scroll where to scroll
+              containerId="scroll-container" 
+               // 👈 tell react-scroll where to scroll
 
               smooth={true}
               duration={200}

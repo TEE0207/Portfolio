@@ -1,4 +1,3 @@
-import SideBar from "../SideBarComponent"
 import ProfileComponent from "./ProfileComponent"
 import styles from "./header.module.css"
 import { MdOutlineMail } from "react-icons/md";
@@ -12,19 +11,7 @@ const HeaderComponent = () => {
     return(
         <section className={styles.allContentContainer}>
 
-
-
-            {/* <SideBar /> */}
-
-               
-                
-              
                     
-
-
-                  
-            
-
             <div className={styles.profileContainer}>
 
              <ProfileComponent />

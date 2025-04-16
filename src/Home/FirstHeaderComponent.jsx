@@ -30,8 +30,10 @@ const FirstHeaderComponent = () => {
 
             <div className={styles.homeAndProjectsContainer}>
                 <ul className={styles.list}>
-                   <NavLink to={"/"}> <li className={styles.lists}>Home</li> </NavLink> 
-                   <NavLink to={"/projects"}> <li className={styles.lists}>Projects</li> </NavLink> 
+                   <NavLink to={"/"} className={({ isActive }) => (isActive ? styles.activeLink : styles.link)}
+                   > <li >Home</li> </NavLink> 
+                   <NavLink to={"/projects"} className={({ isActive }) => (isActive ? styles.activeLink : styles.link)}
+                   > <li>Projects</li> </NavLink> 
                 </ul>
 
 
