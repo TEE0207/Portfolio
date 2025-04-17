@@ -107,6 +107,68 @@
 }
 
 @media screen and (max-width : 1120px) {
+    .allContentContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #292F36;
+        border-bottom: 0.2px solid white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 64px;
+        color: white;
+        /* display: flex; */
+        /* align-items: center; */
+        padding: 3rem 2rem ;
+        z-index: 1000;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact{
+        color: white;
+        font-family: "IBM Plex Mono", monospace;
+        display: none;
+    
+    }
+
+    .tagAndNameContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .tagContainer{
+        width: 30px;
+        height: 20px;
+    }
+    
+    .nameContainer{
+        width: fit-content;
+        height: auto;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .list{
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        column-gap: 1.7rem;
+    }
+
+    .icon{
+        color: #12F7D6;
+        font-size: 1.7rem;
+    }
     
 }
 

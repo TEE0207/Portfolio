@@ -99,6 +99,109 @@
     font-size: 1.2rem;
 }
 
+@media screen and (max-width : 1120px) {
+    .picNameprofessionContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.1rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .profilePictureContainer{
+        width: 200px;
+        height: 200px;
+    }
+
+    .pictureProfile{
+        width: 100%;
+        height: 100%;
+    }
+
+    .myName{
+        color: white;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 2.1rem;
+    }
+    
+    .myProfession{
+        color: white;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 2.1rem;
+
+    }
+    .nameAndProfessionContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0.5rem;
+    }
+
+    .iconsAndDescriptionContainer{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+    
+    }
+    
+    .iconAndContent{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        column-gap: 1.4rem;
+    }
+
+    .pIcon{
+        color: #12F7D6;
+        font-size: 2rem;
+    }
+    
+    .profileDes{
+        color: white;
+        font-size: 1.6rem;
+
+    }
+
+    .button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0.8rem 1.8rem;
+        font-family:   "Ubuntu", sans-serif;
+        column-gap: 0.4rem;
+        border-radius: 1.5rem;
+        font-size: 1.5rem;
+
+    
+    }
+    
+    .dIcon{
+        font-size: 1.6rem;
+    }
+
+    .stackContainer{
+        display: flex;
+        column-gap: 1.2rem;
+        margin: 1.5rem 0rem 1.8rem 0rem;
+    }
+    
+    .eachStackContainer{
+        width: fit-content;
+        height: auto;
+        padding: 0.2rem 0.5rem;
+        background-color: #12F7D6;
+        border-radius: 0.6rem;
+        color: #292F36;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 1.6rem;
+    }
+}
+
+
+
 @media screen and (max-width : 480px) {
 
     .picNameprofessionContainer{

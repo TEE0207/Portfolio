@@ -20,7 +20,7 @@ const ProfileComponent = () => {
             <div className={styles.picNameprofessionContainer}>
 
                 <div className={styles.profilePictureContainer}>
-                    <img src="./Profile.png" alt="profile Picture" />
+                    <img src="./Profile.png" alt="profile Picture" className={styles.pictureProfile}/>
 
                 </div>
 

@@ -9,7 +9,7 @@ const HomePage = () => {
 
     return(
         <>
-      {/* <Element name="me">
+      <Element name="me">
         <HeaderComponent />
       </Element>
 
@@ -17,7 +17,7 @@ const HomePage = () => {
         <AboutMeComponent />
       </Element>
 
-      <Element name="skills">
+      {/* <Element name="skills">
         <SkillComponent />
       </Element>
 
