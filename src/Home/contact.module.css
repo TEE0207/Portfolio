@@ -56,7 +56,7 @@
     width: fit-content;
     padding: 1rem;
     color: #12F7D6;
-    border: 1px solid #12F7D6;
+    border: 2px solid #12F7D6;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     margin-top: 3rem;
@@ -100,6 +100,7 @@
     height: auto;
     border: none;
     outline: none;
+    padding-bottom: 0.2rem;
     border-bottom: 1px solid #98FAEC;
     background-color: #292F36;
 
@@ -118,17 +119,11 @@
     font-size: 0.7rem;
 }
 
-/* .inputField.error {
-    border-color: red;
-} */
+
 
 .messageInputField.error::placeholder {
     color: red;
 }
-
-/* .messageInputField.error {
-    border-color: red;
-} */
 
 .inputField.error::placeholder {
     color: red;
@@ -164,6 +159,8 @@
     border-bottom: 1px solid #98FAEC;
     background-color: #292F36;
     outline: none;
+    padding-bottom: 0.2rem;
+
 }
 
 .messageInputField::placeholder{
@@ -197,6 +194,101 @@
    border-radius: 1rem;
    background-color: #12F7D6;
    cursor: pointer;
+ }
+
+ @media screen and (max-width : 480px){
+    .scrollIconContainer{
+        display: none;
+    }
+
+    .test{
+        color: var(--white-color);
+        font-family:var(--ubuntu-font) ;
+        word-spacing: 0.2rem;
+        font-size: 1.5rem;
+    }
+
+    .sendText{
+        width: fit-content;
+        padding: 1rem 2rem;
+        color: #12F7D6;
+        border: 2px solid #12F7D6;
+        border-top-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        word-spacing: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .nameContainer{
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #12F7D6; */
+        display: flex;
+        row-gap: 1.1rem;
+    }
+    
+    .emailContainer{
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        row-gap: 1.1rem;
+    }
+
+    .inputField::placeholder{
+        font-family:var(--ubuntu-font) ;
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    .label{
+        color:#12F7D6 ; 
+        font-size:0.9rem ;
+        padding-bottom: 0.5rem;
+        font-family:var(--ubuntu-font) ;
+     
+     }
+
+     .messageLabel{
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+     }
+
+     .messageInputField{
+        width: 85%;
+        border: none;
+        border-bottom: 1px solid #98FAEC;
+        background-color: #292F36;
+        outline: none;
+    }
+
+    .messageInputField::placeholder{
+        font-family:var(--ubuntu-font) ;
+        color: white;
+        font-size: 0.8rem;
+
+    }
+
+    
+ .button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:0.7rem 1.5rem;
+    column-gap: 0.5rem;
+    border-radius: 2.2rem;
+    font-size: 1.3rem;
+    background-color: #12F7D6;
+    cursor: pointer;
+  }
+  
  }
 
  

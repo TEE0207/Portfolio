@@ -173,16 +173,12 @@ const manageSubmittion = (e) =>{
                   />
                   {messageError && <p className={styles.errorMessage}>This feild cannot be empty </p>}
                 </div>
-
                         
 
-
-
-
-                      <div className={styles.buttonContainer}>
+                <div className={styles.buttonContainer}>
                        <button type="submit" className={styles.button}>Send Message <BsSend /> </button>
-                      </div>
-              </form>
+                </div>
+            </form>
 
         </section>
     )

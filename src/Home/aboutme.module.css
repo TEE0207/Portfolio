@@ -190,6 +190,19 @@
         height: auto;
     }
 
+    .paragraph{
+        font-family: "IBM Plex Mono", monospace;
+        color: #FFFFFF;
+        font-size: 1rem;
     
+    }
+    
+    .otherParagraph{
+        font-family: "IBM Plex Mono", monospace;
+        color: #FFFFFF;
+        width: 96%;
+        font-size: 1rem;
+
+    }
 }
 
