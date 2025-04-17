@@ -17,13 +17,13 @@ const HomePage = () => {
         <AboutMeComponent />
       </Element>
 
-      {/* <Element name="skills">
+      <Element name="skills">
         <SkillComponent />
       </Element>
 
       <Element name="contact">
         <ContactComponent />
-      </Element> */}
+      </Element>
     </>
     )
 }

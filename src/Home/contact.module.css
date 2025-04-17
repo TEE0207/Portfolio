@@ -38,7 +38,7 @@
 
 .test{
     color: var(--white-color);
-    font-family:var(--ubuntu-font) ;
+    font-family:var(--plex-mono-font) ;
     word-spacing: 0.2rem;
     font-size: 16px;
 }
@@ -196,6 +196,117 @@
    cursor: pointer;
  }
 
+ @media screen and (max-width : 1120px) {
+    .scrollIconContainer{
+        display: none;
+    }
+
+    .test{
+        color: var(--white-color);
+        font-family:var(--plex-mono-font) ;
+        word-spacing: 0.2rem;
+        font-size: 2rem;
+    }
+
+    .sendText{
+        width: fit-content;
+        padding: 1.5rem 3rem;
+        color: #12F7D6;
+        border: 4px solid #12F7D6;
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+        word-spacing: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .inputField{
+        width: 100%;
+        height: auto;
+        border: none;
+        outline: none;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #98FAEC;
+        background-color: #292F36;
+
+    }
+
+    .nameContainer{
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #12F7D6; */
+        display: flex;
+        row-gap: 1.5rem;
+    }
+    
+    .emailContainer{
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        row-gap: 1.5rem;
+    }
+
+    .inputField::placeholder{
+        font-family:var(--ubuntu-font) ;
+        color: white;
+        font-size: 1.1rem;
+    }
+
+    .label{
+        color:#12F7D6 ; 
+        font-size:1.1rem ;
+        padding-bottom: 0.5rem;
+        font-family:var(--ubuntu-font) ;
+     
+     }
+
+     .messageLabel{
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        font-size:1.1rem ;
+
+     }
+
+     .messageInputField{
+        width: 85%;
+        border: none;
+        border-bottom: 1px solid #98FAEC;
+        background-color: #292F36;
+        outline: none;
+        padding-bottom: 0.5rem;
+
+    }
+
+    .messageInputField::placeholder{
+        font-family:var(--ubuntu-font) ;
+        color: white;
+        font-size: 1.1rem;
+
+    }
+
+    
+ .button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:1.5rem 3rem;
+    column-gap: 0.5rem;
+    border-radius: 2.2rem;
+    font-size: 1.8rem;
+    background-color: #12F7D6;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+
+ }
+
  @media screen and (max-width : 480px){
     .scrollIconContainer{
         display: none;
@@ -203,9 +314,9 @@
 
     .test{
         color: var(--white-color);
-        font-family:var(--ubuntu-font) ;
+        font-family:var(--plex-mono-font) ;
         word-spacing: 0.2rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .sendText{
@@ -240,6 +351,17 @@
         row-gap: 1.1rem;
     }
 
+    .inputField{
+        width: 100%;
+        height: auto;
+        border: none;
+        outline: none;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #98FAEC;
+        background-color: #292F36;
+
+    }
+
     .inputField::placeholder{
         font-family:var(--ubuntu-font) ;
         color: white;
@@ -267,6 +389,8 @@
         border-bottom: 1px solid #98FAEC;
         background-color: #292F36;
         outline: none;
+        padding-bottom: 0.5rem;
+
     }
 
     .messageInputField::placeholder{
@@ -288,7 +412,7 @@
     background-color: #12F7D6;
     cursor: pointer;
   }
-  
+
  }
 
  

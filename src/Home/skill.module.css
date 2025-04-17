@@ -131,6 +131,121 @@
 
 }
 
+@media screen and (max-width : 1120px) {
+    .allContentContainer{
+        width: 100%;
+        height: auto;
+        background-image: url(./codeframebg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat ;
+        position: relative;
+        padding: 2rem 0rem;
+        
+    }
+    
+    .generalIconContainer{
+        width: 100%;
+        height: auto;
+        display: none;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .skillsAndTextContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .textContainer{
+        color: white;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 0.3rem 2rem 0rem 2rem;
+       
+        font-family: var(--plex-mono-font);
+    }
+
+    .webdevelopmetContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 3rem;
+        padding: 0rem 10rem;
+    }
+
+    .webImage{
+        width: 100%;
+        height: auto;
+    }
+    .allSkillsContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 4rem;
+        margin-top: 5rem;
+        flex-wrap: wrap;
+        padding: 0rem 10rem;
+        row-gap: 3rem;
+    }
+
+    .eachIconAndTextContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+     }
+
+     .skillImageContainer{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .htmlText{
+        color: #E54F26;
+        font-family: var(--plex-mono-font);
+        font-size: 2.2rem;
+    }
+
+    .textContainer{
+        color: white;
+        font-family: var(--plex-mono-font);
+        font-size:1.5rem ;
+    }
+    
+    .cssText{
+        color: #0C73B8;
+        font-family: var(--plex-mono-font);
+        font-size: 2.2rem;
+    
+    
+    }
+    
+    .jsText{
+        color: #E7A020;
+        font-family: var(--plex-mono-font);
+        font-size: 2.2rem;
+    
+    
+    }
+    
+    .reactText{
+        color: #28A9E0;
+        font-family: var(--plex-mono-font);
+        font-size: 2.2rem;
+    
+    }
+    
+   
+}
+
 
 @media screen and (max-width : 480px) {
 
@@ -177,7 +292,61 @@
         align-items: center;
         row-gap: 1.5rem;
      }
+
+     .webdevelopmetContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 3rem;
+        padding: 0rem 5rem;
+    }
+
+    .webImage{
+        width: 100%;
+        height: auto;
+    }
    
+    .skillImageContainer{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .htmlText{
+        color: #E54F26;
+        font-family: var(--plex-mono-font);
+        font-size: 1.9rem;
+    }
+
+    .textContainer{
+        color: white;
+        font-family: var(--plex-mono-font);
+        font-size:1.5rem ;
+    }
+    
+    .cssText{
+        color: #0C73B8;
+        font-family: var(--plex-mono-font);
+        font-size: 1.9rem;
+    
+    
+    }
+    
+    .jsText{
+        color: #E7A020;
+        font-family: var(--plex-mono-font);
+        font-size: 1.9rem;
+    
+    
+    }
+    
+    .reactText{
+        color: #28A9E0;
+        font-family: var(--plex-mono-font);
+        font-size: 1.9rem;
+    
+    }
     
     
 }

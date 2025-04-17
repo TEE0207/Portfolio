@@ -42,7 +42,7 @@ const SkillComponent  = () => {
                 </div>
 
                 <div className={styles.webdevelopmetContainer}>
-                    <img src="./Web.png" alt="" />
+                    <img src="./Web.png" alt=""  className={styles.webImage}/>
 
                 </div>
 

@@ -31,9 +31,9 @@ function App() {
             <Route path="/" element={<HomePage />} />
           </Route>
       
-          {/* <Route element={<ProjectLayout />}>
+          <Route element={<ProjectLayout />}>
             <Route path="/projects" element={<ProjectPage />} />
-          </Route> */}
+          </Route>
         </Routes>
       
   )

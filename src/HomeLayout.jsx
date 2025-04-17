@@ -15,7 +15,7 @@ const HomeLayout = () => {
         <SideBar />
             <main id="scroll-container" className={styles.main}>
                 <Outlet />
-                {/* <FooterComponent /> */}
+                <FooterComponent />
             </main>
         </div>
 

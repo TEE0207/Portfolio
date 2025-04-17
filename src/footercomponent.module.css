@@ -35,6 +35,56 @@
     display: flex;
 }
 
+
+
+@media screen and (max-width : 1120px) {
+    .allContentContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+        padding: 4rem 2rem;
+        flex-wrap: wrap;
+        row-gap: 3rem;
+        background-color: #1A1E23;
+    }
+
+    .centerContainer{
+        display: flex;
+        flex-direction: row;
+        column-gap: 4rem;
+        order: 1;
+    }
+    
+    .leftSideContainer{
+        color: white;
+        order: 3;
+        font-size: 1.5rem;
+
+    }
+    
+    .taofeek{
+        color: #12F7D6;
+    }
+    
+    .rightSideContainer{
+        color: white;
+        order: 2;
+        font-size: 1.5rem;
+    }
+
+    .mediaContainer{
+        padding: 0.5rem;
+        background-color: aqua;
+        font-size: 2rem;
+        border-radius: 5rem;
+        display: flex;
+    }
+    
+}
+
 @media screen and (max-width : 480px) {
     .allContentContainer{
         width: 100%;
@@ -52,12 +102,13 @@
     .centerContainer{
         display: flex;
         flex-direction: row;
-        column-gap: 3rem;
+        column-gap: 2rem;
         order: 1;
     }
     
     .leftSideContainer{
         color: white;
+        font-size: 1rem;
         order: 3;
     }
     
@@ -68,6 +119,17 @@
     .rightSideContainer{
         color: white;
         order: 2;
+        font-size: 1rem;
+    }
+
+    .mediaContainer{
+        padding: 0.5rem;
+        background-color: aqua;
+        font-size: 1.5rem;
+        border-radius: 5rem;
+        display: flex;
     }
 }
+
+
 
