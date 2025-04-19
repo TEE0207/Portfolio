@@ -103,6 +103,7 @@
     padding-bottom: 0.2rem;
     border-bottom: 1px solid #98FAEC;
     background-color: #292F36;
+    color: white;
 
 
 }
@@ -111,29 +112,36 @@
     font-family:var(--ubuntu-font) ;
     color: white;
     font-size: 0.7rem;
+    transition: opacity 0.3s ease;
 }
 
+.inputField:focus::placeholder {
+    opacity: 0;
+  }
 .messageInputField::placeholder{
     font-family:var(--ubuntu-font) ;
     color: white;
     font-size: 0.7rem;
+    transition: opacity 0.3s ease;
 }
 
+.messageInputField:focus::placeholder {
+    opacity: 0;
+  }
 
 
 .messageInputField.error::placeholder {
-    color: red;
+    color: #b67a7a;
 }
 
 .inputField.error::placeholder {
-    color: red;
+    color: #b67a7a;
 }
 
 .errorMessage {
-    color: red;
+    color: #b67a7a;
     font-size: 0.85rem;
     margin-top: 0.5rem;
-    font-size: 0.55rem;
 }
 
 .label{
@@ -159,14 +167,12 @@
     border-bottom: 1px solid #98FAEC;
     background-color: #292F36;
     outline: none;
+    color: white;
+
     padding-bottom: 0.2rem;
 
 }
 
-.messageInputField::placeholder{
-    font-family:var(--ubuntu-font) ;
-    color: white;
-}
 
 .messageLabel{
    
