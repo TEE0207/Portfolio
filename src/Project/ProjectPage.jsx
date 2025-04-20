@@ -16,12 +16,14 @@ const ProjectPage = () => {
             
             <div className={styles.allProjectContainer}>
                 <ProjectComponent
+                 image="/country.png" // ✅ Direct path from public folder
+
                  title= "Country Explorer with Dark Mode"
                  description="A responsive React app that fetches and displays country data via REST API. Includes search, filtering, detail pages, and light/dark theme toggling."
                  view = {{href : "https://rest-countries-gilt-chi.vercel.app/" , text : "View Project Here"}}
                 
                 />
-                <ProjectComponent 
+                {/* <ProjectComponent 
                    title= "Modern Responsive PayAPI Website"
                    description="Developed using React, JavaScript, and CSS. Fully responsive across all devices, featuring a polished multi-page layout with accessible form validation."
                    view={{href : "https://pay-api-pi-ebon.vercel.app/" , text : "View Project Here"}}
@@ -32,7 +34,7 @@ const ProjectPage = () => {
                    description="Crafted with React, CSS, and JavaScript. A sleek, responsive landing page that adapts seamlessly across devices with elegant layout and interactive UI elements."
                    view={{href : "https://desktop-app-hazel.vercel.app/" , text : "View Project Here"}}
                 
-                />
+                /> */}
             </div>
 
             <div className={styles.seeMoreButtonContainer}>

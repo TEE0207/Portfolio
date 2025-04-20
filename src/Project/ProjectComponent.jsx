@@ -2,13 +2,16 @@ import React from 'react'
 import styles from "./projectcomponent.module.css"
 
 
-const ProjectComponent = ({title , description , view}) => {
+const ProjectComponent = ({title , description , image , view}) => {
 
   return (
     <div className={styles.allContentContainer}>
 
         <div className={styles.imageContainer}>
-            <img src="./projectImage.png" alt="Image" className={styles.image}/>
+            {/* <img src="./projectImage.png" alt="Image" className={styles.image}/> */}
+
+        <img src= {image} alt="Image" className={styles.image}/>
+
             
         </div>
 
