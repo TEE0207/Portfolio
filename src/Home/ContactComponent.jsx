@@ -15,6 +15,8 @@ const [emailError, setEmailError] = useState(false)
 const [message, setMessage] = useState("")
 const [messageError, setMessageError] = useState(false)
 
+const scriptURL = "https://script.google.com/macros/s/AKfycbyaQXm-_PIuP_GvGXLqOFm2eUTwT6okSgYWS7vipH-4r8ttriJMnXn1yli5-6NWouuY/exec";
+
 
 
 const manageEmail = (e) => {
@@ -58,46 +60,57 @@ const manageMessage = (e) => {
   }
 }
 
-const manageSubmittion = (e) =>{
-  e.preventDefault()
+const manageSubmittion = (e) => {
+  e.preventDefault();
 
-   let isValid = true;
+  let isValid = true;
 
-        if (nameInput.trim() === "") {
-          setErrorNameInput(true);
-            isValid = false;
-        }
+  if (nameInput.trim() === "") {
+    setErrorNameInput(true);
+    isValid = false;
+  }
 
-        if (emailValue.trim() === "") {
-            setEmailError("This field can't be empty");
-            isValid = false;
-        } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailValue)) {
-            setEmailError("Enter a valid email address");
-            isValid = false;
-        }
+  if (emailValue.trim() === "") {
+    setEmailError("This field can't be empty");
+    isValid = false;
+  } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailValue)) {
+    setEmailError("Enter a valid email address");
+    isValid = false;
+  }
 
-        if (message.trim() === "") {
-             setMessageError(true);
-            isValid = false;
-       
-        }
-        if (isValid) {
-            console.log("Form submitted:", { nameInput, emailValue, message});
-        }
+  if (message.trim() === "") {
+    setMessageError(true);
+    isValid = false;
+  }
 
-         // Reset form values after successful submission
-         setNameInput("");
-         setEmailValue("");
-         setMessage("");
-         
+  if (!isValid) return;
 
+  // 👇 Send to Google Sheet
+  const formData = new FormData();
+  formData.append("name", nameInput);
+  formData.append("email", emailValue);
+  formData.append("message", message);
 
-         // ✅ Clear all error states
-        setErrorNameInput(false);
-        setEmailError(false);
-        setMessageError(false);
-        
-}
+  fetch(scriptURL, {
+    method: "POST",
+    body: formData,
+  })
+    .then((res) => {
+      alert("✅ Message sent successfully!");
+      // Reset after success
+      setNameInput("");
+      setEmailValue("");
+      setMessage("");
+      setErrorNameInput(false);
+      setEmailError(false);
+      setMessageError(false);
+    })
+    .catch((err) => {
+      console.error("Error!", err.message);
+      alert("❌ Failed to send message. Please try again.");
+    });
+};
+
 
 
 
