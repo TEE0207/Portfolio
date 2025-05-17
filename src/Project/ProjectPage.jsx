@@ -19,7 +19,7 @@ const ProjectPage = () => {
               <ProjectComponent
                  image="/movie.png" // ✅ Direct path from public folder
 
-                 title= "NetflixGpt"
+                 title= "Netflix-Gpt"
                  description="AI-powered movie app using OpenAI, TMDB, Firebase, Redux, and Tailwind. Features multilingual search, live trailers, and recommendations."
                  view = {{href : "https://netflixgpt-d1bcb.firebaseapp.com/" , text : "View Project Here"}}
                 
