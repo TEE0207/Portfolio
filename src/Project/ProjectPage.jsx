@@ -15,6 +15,15 @@ const ProjectPage = () => {
             </div>
             
             <div className={styles.allProjectContainer}>
+
+              <ProjectComponent
+                 image="/movie.png" // ✅ Direct path from public folder
+
+                 title= "NetflixGpt"
+                 description="An AI-powered movie recommendation platform built with Webpack, Firebase authentication, and Redux for robust state management. Leverages the OpenAI API to suggest movie titles, integrates TMDB to stream trailers and display trending, popular, top-rated, and now-playing films. Features a dynamic, multilingual search interface with real-time placeholder translation."
+                 view = {{href : "https://netflixgpt-d1bcb.firebaseapp.com/" , text : "View Project Here"}}
+                
+                />
                 <ProjectComponent
                  image="/country.png" // ✅ Direct path from public folder
 
