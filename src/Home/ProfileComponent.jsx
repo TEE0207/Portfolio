@@ -67,7 +67,7 @@ const ProfileComponent = () => {
 
             
              <div className={styles.downloadButtonContainer}>
-                <a href="/My-CV.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/CV.docx" target="_blank" rel="noopener noreferrer">
                    <button className={styles.button}>Download CV <GoDownload className={styles.dIcon}/></button>
                 </a>
 
