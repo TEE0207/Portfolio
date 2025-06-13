@@ -24,6 +24,8 @@ const ProjectPage = () => {
                  view = {{href : "https://netflixgpt-d1bcb.firebaseapp.com/" , text : "View Project Here"}}
                 
                 />
+
+                 
                 <ProjectComponent
                  image="/country.png" // ✅ Direct path from public folder
 
