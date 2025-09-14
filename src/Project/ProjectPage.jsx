@@ -37,7 +37,7 @@ const ProjectPage = () => {
                 <ProjectComponent 
                    image="/payApi.png"
                    title= "Modern Responsive PayAPI Website"
-                   description="Developed using React, JavaScript, and CSS. Fully responsive across all devices, featuring a polished multi-page layout with accessible form validation."
+                   description="Developed using React, TypeScript, and CSS. Fully responsive across all devices, featuring a polished multi-page layout with accessible form validation, and thoroughly tested with Jest to ensure reliability."
                    view={{href : "https://pay-api-pi-ebon.vercel.app/" , text : "View Project Here"}}
                 
                 />
