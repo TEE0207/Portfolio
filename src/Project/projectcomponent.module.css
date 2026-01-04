@@ -198,6 +198,27 @@
 
     }
 
+    
+.mongoColor{
+  color: #47A248; /* MongoDB green */
+  font-size: 1.2rem;
+}
+
+.expressColor{
+  color: #000000; /* Express black */
+  font-size: 1.2rem;
+}
+
+.nodeColor{
+  color: #339933; /* Node.js green */
+  font-size: 1.2rem;
+}
+
+.tailwindColor{
+  color: #38BDF8; /* Tailwind blue */
+  font-size: 1.2rem;
+}
+
     .imageContainer{
         width: 300px;
         height: 200px;

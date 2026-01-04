@@ -25,7 +25,7 @@ const ProjectPage = () => {
                         href: "https://devtinder.global.com/",
                         text: "View Live Project",
                     }}
-                    stack={{tailWind: "TAILWIND", js: "JS", react: "REACT", node: "NODE.JS" , express: "EXPRESS", mongodb: "MONGODB"}}
+                    stack={{ css : "CSS", tailWind: "TAILWIND", js: "JS", react: "REACT", node: "NODE.JS" , express: "EXPRESS", mongodb: "MONGODB"}}
                 />
 
 
@@ -35,7 +35,8 @@ const ProjectPage = () => {
                  title= "Netflix-Gpt"
                  description="AI-powered movie app using OpenAI, TMDB, Firebase, Redux, and Tailwind. Features multilingual search, live trailers, and recommendations."
                  view = {{href : "https://netflixgpt-d1bcb.firebaseapp.com/" , text : "View Project Here"}}
-                
+                                   stack={{css: "CSS", js: "JS", react: "REACT"}}
+
                 />
 
                  
