@@ -22,7 +22,7 @@ const ProjectPage = () => {
                     title="DevTinder"
                     description="A full-stack MERN application designed for developers to connect. Built with React, Node.js, Express, and MongoDB, the platform features secure authentication, developer profiles, swipe-based matching, real-time chat powered by Socket.IO, integrated Stripe payments, and email notifications via Amazon SES."
                     view={{
-                        href: "https://devtinder.global.com/",
+                        href: "https://devtinder.global/",
                         text: "View Live Project",
                     }}
                     stack={{tailWind:"TAILWIND", react:"REACT", node:"NODE.JS", express:"EXPRESS", mongodb: "MONGODB"}}
