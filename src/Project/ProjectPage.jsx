@@ -16,6 +16,18 @@ const ProjectPage = () => {
             
             <div className={styles.allProjectContainer}>
 
+
+                 <ProjectComponent
+                    image="/devTinder.png" // served from public folder
+                    title="DevTinder"
+                    description="A full-stack MERN application designed for developers to connect. Built with React, Node.js, Express, and MongoDB, the platform features secure authentication, developer profiles, swipe-based matching, real-time chat powered by Socket.IO, integrated Stripe payments, and email notifications via Amazon SES."
+                    view={{
+                        href: "https://devtinder.global.com/",
+                        text: "View Live Project",
+                    }}
+                />
+
+
               <ProjectComponent
                  image="/movie.png" // ✅ Direct path from public folder
 
