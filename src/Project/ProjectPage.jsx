@@ -25,7 +25,7 @@ const ProjectPage = () => {
                         href: "https://devtinder.global.com/",
                         text: "View Live Project",
                     }}
-                    stack={{tailWind: "TAILWIND", js: "JS", react: "REACT", node: "NODE.JS" , express: "EXPRESS", mongodb: "MONGODB"}}
+                    stack={{tailWind:"TAILWIND", react:"REACT", node:"NODE.JS", express:"EXPRESS", mongodb: "MONGODB"}}
                 />
 
 

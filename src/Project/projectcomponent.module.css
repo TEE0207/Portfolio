@@ -1,5 +1,5 @@
 .allContentContainer{
-    width: 48%;
+    width: 58%;
     height: auto;
     display: flex;
     flex-direction: row; 
@@ -61,6 +61,22 @@
 
 .reactColor{
  color: #28A9E0;
+}
+
+.mongodbColor{
+  color: #47A248; /* MongoDB green */
+}
+
+.expressColor{
+  color: #000000; /* Express black */
+}
+
+.nodeColor{
+  color: #339933; /* Node.js green */
+}
+
+.tailwindColor{
+  color: #38BDF8; /* Tailwind blue */
 }
 
 @media screen and (max-width : 1120px){

@@ -32,14 +32,14 @@ const ProjectComponent = ({title , description , image , view, stack}) => {
             </div>
 
             <div className={styles.stackAndContentContainer}>
-                {/* <p>STACK  :</p> */}
-                <p className={styles.cssColor}>{stack?.css}</p>
-                <p className={styles.jsColor}>{stack?.js}</p>
-                <p className={styles.reactColor}>{stack?.react}</p>
+                
                 <p className={styles.nodeColor}>{stack?.node}</p>
                 <p className={styles.tailwindColor}>{stack?.tailwind}</p>
                 <p className={styles.expressColor}>{stack?.express}</p>
                 <p className={styles.mongodbColor}>{stack?.mongodb}</p>
+                <p className={styles.reactColor}>{stack?.react}</p>
+                 <p className={styles.cssColor}>{stack?.css}</p>
+                <p className={styles.jsColor}>{stack?.js}</p>
 
 
             </div>
